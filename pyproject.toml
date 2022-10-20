@@ -1,0 +1,12 @@
+[buid-system]
+requires = ["setuptools>=42.0", "wheel"]   
+build-backend = "setuptools.build_meta"
+
+[tools.pytest.ini_options]
+testpaths = [
+    "tests"
+    ]
+
+[tools.mypy]
+mypy_path = "src"
+igonre_missing_imports = true

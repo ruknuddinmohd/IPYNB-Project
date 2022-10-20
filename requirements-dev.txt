@@ -1,11 +1,8 @@
 ipwidgets
+pandas
 notebook
 ensure
-py-youtube
-
-
-
-# dev requirements
+py-youtub
 pytest
 tox
 black

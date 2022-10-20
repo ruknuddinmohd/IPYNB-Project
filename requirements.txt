@@ -1,4 +1,11 @@
-ipwidgets
+ipywidgets
+pandas
 notebook
 ensure
-py-youtube
+py-youtub
+pytest
+tox
+black
+flake8
+mypy
+-e .
